@@ -9,7 +9,6 @@ public static final double Pi = 3.14;
 		
 		 final int a = 10;
 		
-		
 		System.out.println(Pi);
 		System.out.println(a);
 		
