@@ -21,8 +21,7 @@ public class P3_Task01_VariableandDataTypesinJava {
 	 *      
 	 *   - Data Types in Java?
 	 *   . Reference OneNote
-	 *   
-	 *      
+	 *       
 	 */
 
 		
