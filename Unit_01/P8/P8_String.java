@@ -35,17 +35,40 @@ public class P8_String {
 class QuestionsOnString {
 
 	void palindromeOrNot(String s) {
-		// Write Logic Here!
+
+		// Method 1
+		StringBuilder sb = new StringBuilder(s);
+		sb.reverse();
+
+		String rev = sb.toString();
+		if (s.equals(rev)) {
+			System.out.println("String is palindrome");
+			;
+		} else {
+			System.out.println("String is not palindrome");
+			;
+		}
+		// Method 2
 
 	}
 
 	void reverseOfAString(String s) {
-		// Write Logic Here!
+		StringBuilder sb = new StringBuilder(s);
+		sb = new StringBuilder(s);
+		sb.reverse();
+
+		String rev = sb.toString();
+
+		System.out.println("Reversed String is ->");
+		System.out.println(sb.toString());
 
 	}
-	
-	void stringEqualOrNot(String s1,String s2) {
-		// Write Logic Here!
-		
+
+	void stringEqualOrNot(String s1, String s2) {
+		if (s1.length() == s2.length()) {
+			System.out.println("Both the strings are equal");
+		} else
+			System.out.println("Strings are not equal");
+
 	}
 }
