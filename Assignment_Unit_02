@@ -98,6 +98,7 @@ class Sample3 extends Sample2 implements A3, B3 {
 interface A3{
 	public void display1();
 }
+
 interface B3{
 	public void display2();
 }
