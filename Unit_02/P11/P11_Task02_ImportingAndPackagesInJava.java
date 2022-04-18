@@ -1,6 +1,6 @@
 
 //Inside this package we can create any number of classes
-package Unit02;
+package Unit_02;
 
 
 /*
