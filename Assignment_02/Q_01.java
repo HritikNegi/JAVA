@@ -1,3 +1,5 @@
+package Assignment_02
+
 import java.util.*;
 
 class Student
@@ -28,7 +30,7 @@ class Student
 	}
 }
 
-public class Main {
+public class Q_01{
     
 	public static void main(String[] args) {
 	    
