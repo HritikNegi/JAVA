@@ -32,10 +32,10 @@ public class P14_ExceptionHandling {
 		obj.handleException();
 		obj.multipleCatch();
 		obj.inputMismatchException();
-		//obj.stackOverFlowError(6);
+		obj.stackOverFlowError(6);
 		obj.indexOutOfBoundException();
 		obj.nullPointerException();
-		// obj.useOfThrow(18);
+		obj.useOfThrow(18);
 		obj.useOfThrows_And_Finally();
 		obj.checkedAndUncheckedException();
 
